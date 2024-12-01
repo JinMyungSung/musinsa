@@ -12,17 +12,20 @@ gradle: 8.11.1
 h2 DB
 ```
 ## 코드 빌드 및 실행방법
-1. cd {projectDir}
+1. cd {projectDir}/src/main/resource/static
+    - 프론트 디렉토리로 이동합니다.
+2. npm install
+3. cd {projectDir}
     - 프로젝트 디렉토리로 이동합니다.
-2. ./gradlew bootRun
+4. ./gradlew bootRun
     - task 중 `frontendTask`에서 프론트엔드 리소스 생성합니다.
     - 서버가 기동됩니다. (8080번 포트)
     - 자동으로 A~I 브랜드와 상품을 등록합니다.
-3. cd {projectDir}/src/main/resource/static
+5. cd {projectDir}/src/main/resource/static
     - 프론트 디렉토리로 이동합니다.
-4. npm run dev
+7. npm run dev
     - 프론트 노드서버를 기동합니다.(3000번 포트)
-5. localhost:3000에 접속하여 과제를 확인합니다.
+8. localhost:3000에 접속하여 과제를 확인합니다.
 
 ## 구현범위
 - 과제 4종 요구사항 주신 내용 반영했습니다. 
